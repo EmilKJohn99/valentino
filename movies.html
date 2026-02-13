@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tonight’s Pick 💖</title>
+  <link rel="stylesheet" href="css/movies.css" />
+</head>
+<body>
+
+  <div class="glass-card">
+    <h1>💖 Tonight’s Watch 💖</h1>
+    <p class="subtitle">Let fate decide our next watch</p>
+
+    <select id="typeSelect">
+      <option value="">Choose Content</option>
+      <option value="movie">Movie 🎬</option>
+      <option value="tv">Series 📺</option>
+      <option value="documentary">Documentary 🎞️</option>
+    </select>
+
+    <select id="genreSelect">
+      <option value="">Choose Genre</option>
+      <option value="10749">Romance</option>
+      <option value="35">Comedy</option>
+      <option value="18">Drama</option>
+      <option value="53">Thriller</option>
+    </select>
+
+    <button id="pickBtn">Pick Tonight’s Watch ✨</button>
+
+    <div id="movieCard" class="hidden"></div>
+  </div>
+
+  <script src="js/movies.js"></script>
+</body>
+</html>

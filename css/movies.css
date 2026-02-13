@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #1b1b2f, #16213e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ff6b81;
+}
+
+#movieCard img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.seen-btn {
+  margin-top: 15px;
+  background: #6c63ff;
+}
+
+.hidden {
+  display: none;
+}
